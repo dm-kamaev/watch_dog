@@ -1,0 +1,35 @@
+{
+  "env": {
+    es6: true,
+    node: true,
+    browser: false,
+    jquery: false
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+  },
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {"SwitchCase": 1}
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-extra-boolean-cast": ["off"],
+    "no-console": ["off"],
+    "no-useless-escape": ["off"]
+  }
+}
